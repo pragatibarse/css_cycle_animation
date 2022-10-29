@@ -1,0 +1,26 @@
+body{
+	height: 600px;
+	width: 100%;
+	background-image: url(night.webp);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+}
+.img{
+	height: 300px;
+	width: 300px;
+	margin-top: 230px;
+}
+.div1{
+
+	animation-name: ani_cycle;
+	position: relative;
+	animation-duration: 10s;
+    animation-iteration-count:5;
+}
+
+@keyframes ani_cycle{
+
+0%{bottom:0px;left: 0px;}
+	80%{bottom: 0px;left: 100%;}
+}
